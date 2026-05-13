@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="aosp" fetch="http://android.googlesource.com/a"/>
+<remote name="aosp" fetch="http://android.googlesource.com"/>
 <default revision="nougat-mr2-security-release" remote="aosp">
 <project path="build" name="platform/build" groups="pdk,tradefed">
 <copyfile src="core/root.mk" dest="Makefile"/>
